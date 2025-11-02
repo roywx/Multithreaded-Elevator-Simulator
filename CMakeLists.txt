@@ -4,7 +4,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(elevator VERSION 1.0)
 
-find_package(Boost REQUIRED COMPONENTS thread system)
+find_package(Boost REQUIRED COMPONENTS thread system chrono)
 include_directories(${Boost_INCLUDE_DIRS})
 
 
