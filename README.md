@@ -12,7 +12,9 @@ This project uses **CMake** and requires Boost
 brew install boost
 
 git clone https://github.com/roywx/Multithreaded-Elevator-Simulator
+
 cd elevator
+
 cmake . && make && ./elevator 
 
 ## How to interact
